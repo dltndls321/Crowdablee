@@ -8,11 +8,18 @@
 <script src="/WEB-INF/js/Main_ItemsJs.js"></script>
  -->
 <div class="grid-container" >
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
+  <div class="item1" ><a href="View_Main">Massively-multiplayer</a></div>
+  <div class="item2"><a href="#">Racing</a></div>
+  <div class="item3"><a href="#">Rpg</a></div>  
+  <div class="item4"><a href="#">Sports</a></div>
+  <div class="item5"><a href="#">Simulation</a></div>
+  <div class="item6"><a href="#">Action</a></div>
+  <div class="item7"><a href="#">Adventure</a></div>
+  <div class="item8"><a href="#">Indie</a></div>
+  <div class="item9"><a href="#">Strategy</a></div>
+  <div class="item10"><a href="#">Casual</a></div>
+  <div class="item11"><a href="#">Othergame</a></div>
+  
 </div>
 
 
