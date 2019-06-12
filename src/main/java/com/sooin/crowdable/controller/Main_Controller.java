@@ -10,18 +10,17 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.sooin.crowdable.service.crowdableService;
+import com.sooin.crowdable.service.Main_Service;
 @Controller
-public class crowdableController {
+public class Main_Controller {
 
 	@Resource
-	private crowdableService crowdableService;
+	private Main_Service main_Service;
 	
-	@RequestMapping(value="crowdable.do")
+	@RequestMapping(value="main.do")
 	public String crowdable(@RequestParam Map<String, Object> paramMap, ModelMap model ,HttpServletRequest request, HttpServletRequest response ) {
-		paramMap.get("asd");
-		model.addAttribute("asd", "Asd");
 		
-		return "asd";
+		
+		return "View_Main";
 	}
 }
