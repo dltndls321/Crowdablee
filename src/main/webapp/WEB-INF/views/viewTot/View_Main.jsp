@@ -15,6 +15,8 @@
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+.grid-container{font-family: "Roboto", sans-serif}
+.all-footer{font-family: "Roboto", sans-serif}
 </style>
 
 <script src="/resources/js/jquery-3.2.1.min.js"></script>
@@ -33,8 +35,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </script>
 </head>
 <body>
-<jsp:include page="/WEB-INF/views/allContents/All_Nevi.jsp" flush="false"></jsp:include>
+
 <jsp:include page="/WEB-INF/views/mainContents/Main_Items.jsp" flush="false"></jsp:include>
-<jsp:include page="/WEB-INF/views/allContents/All_Footer.jsp" flush="false"></jsp:include>
+
 </body>
 </html>

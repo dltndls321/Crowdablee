@@ -8,18 +8,17 @@
 <script src="/WEB-INF/js/Main_ItemsJs.js"></script>
  -->
 <div class="grid-container" >
-  <div class="item1" ><a href="View_Main">Massively-multiplayer</a></div>
-  <div class="item2"><a href="#">Racing</a></div>
-  <div class="item3"><a href="#">Rpg</a></div>  
-  <div class="item4"><a href="#">Sports</a></div>
-  <div class="item5"><a href="#">Simulation</a></div>
-  <div class="item6"><a href="#">Action</a></div>
-  <div class="item7"><a href="#">Adventure</a></div>
-  <div class="item8"><a href="#">Indie</a></div>
-  <div class="item9"><a href="#">Strategy</a></div>
-  <div class="item10"><a href="#">Casual</a></div>
-  <div class="item11"><a href="#">Othergame</a></div>
-  
+  <div class="item1" onclick="location.href='https://www.naver.com/'"><a id="item1">MULTIPLAYER</a></div>
+  <div class="item2" onclick="location.href='#'"><a id="item2">RACING</a></div>
+  <div class="item3" onclick="location.href='#'"><a id="item3">RPG</a></div>  
+  <div class="item4" onclick="location.href='#'"><a id="item4">SPORTS</a></div>
+  <div class="item5" onclick="location.href='#'"><a id="item5">SIMULATION</a></div>
+  <div class="item6" onclick="location.href='#'"><a id="item6">ACTION</a></div>
+  <div class="item7" onclick="location.href='#'"><a id="item7">ADVENTURE</a></div>
+  <div class="item8" onclick="location.href='#'"><a id="item8">INDIE</a></div>
+  <div class="item9" onclick="location.href='#'"><a id="item9">STRATEGY</a></div>
+  <div class="item10" onclick="location.href='#'"><a id="item10">CASUAL</a></div>
+  <div class="item11" onclick="location.href='#'"><a id="item11">OTHERGAME</a></div>  
 </div>
 
 

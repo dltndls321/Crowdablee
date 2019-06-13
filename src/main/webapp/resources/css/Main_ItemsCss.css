@@ -3,89 +3,215 @@
 .item1 {
 	grid-area: massively-multiplayer;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image:url(/resources/images/Main_ItemsImg/massively-multiplayer.jpg);
-	background-size: 100%;
+	background-size: 100%;	
+	transition: background-image 0.5s ease-in-out;	
+}
+#item1{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item1:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item1:hover #item1{
+	opacity: 1;
 }
 
 .item2 {
 	grid-area: racing;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/racing.jpg);
 	background-size: 100%;
 }
+#item2{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item2:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item2:hover #item2{
+	opacity: 1;
+}
+
 
 .item3 {
 	grid-area: rpg;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/rpg.jpg);
 	background-size: 100%;
 }
+#item3{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item3:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item3:hover #item3{
+	opacity: 1;
+}
+
 
 .item4 {
 	grid-area: sports;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/sports.jpg);
 	background-size: 100% 100%;
 }
+#item4{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item4:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item4:hover #item4{
+	opacity: 1;
+}
+
 
 .item5 {
 	grid-area: simulation;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/simulation.jpg);
 	background-size: 100%;
+}
+#item5{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item5:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item5:hover #item5{
+	opacity: 1;
 }
 
 .item6 {
 	grid-area: action;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/action.jpg);
 	background-size: 100%;
 }
+#item6{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item6:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item6:hover #item6{
+	opacity: 1;
+}
+
 
 .item7 {
 	grid-area: adventure;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/adventure.jpg);
 	background-size: 100% 100%;
+}
+#item7{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item7:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item7:hover #item7{
+	opacity: 1;
 }
 
 .item8 {
 	grid-area: indie;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/indie.jpg);
 	background-size: 100%;
+}
+#item8{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item8:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item8:hover #item8{
+	opacity: 1;
 }
 
 .item9 {
 	grid-area: strategy;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/strategy.jpg);
 	background-size: 100%;
+}
+#item9{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item9:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item9:hover #item9{
+	opacity: 1;
 }
 
 .item10 {
 	grid-area: casual;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/casual.jpg);
 	background-size: 100% 100%;
+}
+#item10{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item10:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item10:hover #item10{
+	opacity: 1;
 }
 
 .item11 {
 	grid-area: othergame;
 	cursor: pointer;
-	color :#ffffff;
+	color :#666666;
 	background-image: url(/resources/images/Main_ItemsImg/othergame.jpg);
 	background-size: 100%;
+}
+#item11{
+	opacity: 0;
+	transition : 0.3s;
+}
+.item11:hover{
+	background-image:url();	
+	transition: background-image 0.5s ease-in-out;
+}
+.item11:hover #item11{
+	opacity: 1;
 }
 
 @media ( min-width :993px) {
@@ -129,3 +255,4 @@
 	padding: 20px 0;
 	font-size: 30px;
 }
+

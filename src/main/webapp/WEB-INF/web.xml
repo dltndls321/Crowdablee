@@ -3,6 +3,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>/WEB-INF/views/viewTot/*</url-pattern>
+			<include-prelude>/WEB-INF/views/allContents/All_Nevi.jsp</include-prelude>
+			<include-coda>/WEB-INF/views/allContents/All_Footer.jsp	</include-coda>
+		</jsp-property-group>
+	</jsp-config>
 	<!-- The definition of the Root Spring Container shared by all Servlets 
 		and Filters -->
 	<context-param>
@@ -33,7 +40,11 @@
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+
 	
+
+
+
 
 
 

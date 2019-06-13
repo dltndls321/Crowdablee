@@ -21,6 +21,6 @@ public class Main_Controller {
 	public String crowdable(@RequestParam Map<String, Object> paramMap, ModelMap model ,HttpServletRequest request, HttpServletRequest response ) {
 		
 		
-		return "View_Main";
+		return "viewTot/View_Main";
 	}
 }
