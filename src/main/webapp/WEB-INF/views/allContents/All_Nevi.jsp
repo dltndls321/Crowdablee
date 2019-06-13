@@ -10,7 +10,8 @@
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">공지사항</a>
     <a href="#" class="w3-bar-item w3-button">게임 둘러보기</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+     <a href="#" class="w3-bar-item w3-button">게임 올리기</a>
+   <!--  <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       게임 올리기 <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
@@ -18,7 +19,7 @@
       <a href="#" class="w3-bar-item w3-button">내 후원목록</a>
       <a href="#" class="w3-bar-item w3-button">CROWDABLE?</a>
       <a href="#" class="w3-bar-item w3-button">Straight</a>
-    </div>
+    </div> -->
     <a href="#" class="w3-bar-item w3-button">내 후원목록</a>
     <a href="#" class="w3-bar-item w3-button">CROWDABLE?</a>   
   </div>
@@ -43,7 +44,7 @@
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Jeans</p>
+    <p class="w3-left">Main</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
       <i class="fa fa-search"></i>
