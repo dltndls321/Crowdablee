@@ -2,15 +2,15 @@
 	pageEncoding="EUC-KR"%>
 <!-- <link rel="stylesheet" href="/resources/css/w3css.css"> -->
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top w3-card" style="z-index:3;width:250px" id="mySidebar">
-  <div class="w3-container w3-display-container w3-padding-16 logo">
-    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top w3-card" style="z-index:3;width:250px" id="mySidebar_left">
+  <div class="w3-container w3-display-container w3-padding-16 logo" onclick="location.href='/main.do'">
+    <i onclick="nevi_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright" ></i>
     <h3 class="w3-wide"></h3>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">공지사항</a>
-    <a href="#" class="w3-bar-item w3-button">게임 둘러보기</a>
-     <a href="#" class="w3-bar-item w3-button">게임 올리기</a>
+    <a href="#" class="w3-bar-item w3-button">CROWDABLE?</a>
+     <a href="#" class="w3-bar-item w3-button">게임 둘러보기</a>
    <!--  <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       게임 올리기 <i class="fa fa-caret-down"></i>
     </a>
@@ -20,22 +20,20 @@
       <a href="#" class="w3-bar-item w3-button">CROWDABLE?</a>
       <a href="#" class="w3-bar-item w3-button">Straight</a>
     </div> -->
-    <a href="#" class="w3-bar-item w3-button">내 후원목록</a>
-    <a href="#" class="w3-bar-item w3-button">CROWDABLE?</a>   
+    <a href="#" class="w3-bar-item w3-button">게임 올리기</a>
+    <a href="#" class="w3-bar-item w3-button">내 후원목록</a>   
   </div>
-  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+  
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
   <div class="w3-bar-item w3-padding-24 w3-wide"></div>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="nevi_open()"><i class="fa fa-bars"></i></a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large" onclick="nevi_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:250px">
 
@@ -46,7 +44,9 @@
   <header class="w3-container w3-xlarge w3-card">
     <p class="w3-left">Main</p>
     <p class="w3-right">
-      <i class="fa fa-user-circle w3-margin-right"></i>
+      <i class="fa fa-user-circle w3-margin-right">
+      <a class="shadow_animate" style="cursor: pointer;" onclick="location.href='/lorg.do';">LOGIN</a>/<a class="shadow_animate" style="cursor: pointer;" onclick="  location.href='/lorg.do'; register_click()">REGISTER A NEW ACCOUNT</a>
+      </i>
       <i class="fa fa-search"></i>
     </p>
   </header>

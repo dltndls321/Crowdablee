@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>메인입니당</title>
+<title>여기는 로그인</title>
 <link rel="stylesheet" href="/resources/css/NeviCss.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/resources/css/Main_ItemsCss.css">
+<link rel="stylesheet" href="/resources/css/Login_Register_ItemsCss.css">
 <link rel="stylesheet" href="/resources/css/All_FooterCss.css">
 
 <style>
@@ -25,12 +25,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 <script src="/resources/js/jquery.waypoints.min.js"></script>
 <script src="/resources/js/TotJs.js"></script>
 </head>
-<body>
-<div>
- <jsp:include page="/WEB-INF/views/allContents/All_Nevi.jsp" flush="false"></jsp:include>
-</div>
-<div id="main_Items" >
-	<jsp:include page="/WEB-INF/views/mainContents/Main_Items.jsp" flush="false"></jsp:include>
-</div>
+<body onload="<%=request.getAttribute("onloadfunc")%>">
+	<jsp:include page="/WEB-INF/views/login_registerContents/Login_Register_Items.jsp" flush="false"></jsp:include>
 </body>
 </html>
